@@ -1,0 +1,60 @@
+ul.list-inline.custom-btmsidebar-dark i{text-align:right;float:right;color:#fff;}
+h1,h2,h3,h4,h5,h6,p,span{margin:0;}
+ul.list-inline.custom-btmsidebar-dark h6{color:#fff;}
+ul.list-inline.custom-btmsidebar-dark li span {
+    font-size: 14px;
+}
+.mt-50{margin-top:50px;}
+
+/*----Left Sidebar Section-----*/
+.sidebar-dark .sidebar-brand {
+    color: #fff;
+    background: #273a8a;
+}
+.sidebar .sidebar-brand{
+	padding:1rem;
+	height:auto;
+}
+.left-bg-gradient {
+    background: #34313f;
+    width: 16rem !important;
+    position: relative;
+    z-index:222;
+    float:left;
+    height:100vh;
+}
+.sidebar .nav-item .nav-link {
+    width: auto;
+	padding:0.3rem 1.5rem;
+}
+.custom-sidebar-dark li.nav-item.dropdown button:focus {
+    box-shadow: none;
+}
+ul.list-inline.custom-btmsidebar-dark button span {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 12px !important;
+}
+ul.list-inline.custom-btmsidebar-dark button h6 {
+    font-size: 14px;
+}
+ul.list-inline.custom-btmsidebar-dark {
+    background: #44414e;
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-btmsidebar-dark button:focus {
+    box-shadow: none;
+}
+.custom-sidebar-dark li.nav-item.dropdown button {
+    width: 100%;
+    text-align: left;
+}
+.sidebar .sidebar-brand .sidebar-brand-text {
+    text-align: left;
+    width: 100%;
+}
+/*----Left-Sidebar-End-----*/

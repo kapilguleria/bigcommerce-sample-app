@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Frontend</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Toastr Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    .order-listing-container .button-completed .bd-button {
+      background-color: #28a745 !important;
+      border: none !important;
+      padding: 2px 10px 2px 10px !important;
+      font-weight: 500;
+    }
+
+    .order-listing-container .button-cancel .bd-button {
+      background-color: #dc3545 !important;
+      border: none !important;
+      padding: 2px 10px 2px 10px !important;
+      font-weight: 500;
+    }
+
+    .order-listing-container .button-others .bd-button {
+      background-color: #d3d3d3 !important;
+      border: none !important;
+      padding: 2px 10px 2px 10px !important;
+      color: #222 !important;
+      font-weight: 500;
+    }
+
+    .count-heading h1 {
+      font-size: 42px !important;
+      font-weight: 100 !important;
+      margin: 0 !important;
+    }
+
+    .custom-hdspc h1 {
+      margin: 0 !important;
+    }
+
+    .bg-none {
+      background: none !important;
+      z-index: 2222 !important;
+    }
+
+    .order-table-pro {
+      margin-top: -40px !important;
+    }
+
+    .order-table-pro table#bd-table-1 th {
+      width: 20%;
+    }
+
+    @media screen and (max-width:767px) {
+      .order-table-pro {
+        margin-top: 0px !important;
+      }
+
+      .tb-responsive {
+        max-width: 330px !important;
+        overflow: auto !important;
+      }
+
+      .order-table-pro div {
+        float: left !important;
+        padding: 2px 0 !important;
+      }
+
+      .col-float div:nth-child(1) {
+        float: left;
+      }
+
+      .mob-button button {
+        max-width: 150px;
+        margin: 10px auto 0 auto;
+        display: block;
+        float: none;
+      }
+    }
+  </style>
+
+</head>
+
+<body class="mat-typography">
+  <app-root></app-root>
+</body>
+
+</html>

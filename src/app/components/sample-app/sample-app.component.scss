@@ -1,0 +1,120 @@
+ul.list-inline.custom-btmsidebar-dark i{text-align:right;float:right;color:#fff;}
+h1,h2,h3,h4,h5,h6,p,span{margin:0;}
+ul.list-inline.custom-btmsidebar-dark h6{color:#fff;}
+ul.list-inline.custom-btmsidebar-dark li span {
+    font-size: 14px;
+}
+.mt-50{margin-top:50px;}
+
+/*----Start-Body-Section-----*/
+.tab-left-data {
+    float: left;
+}
+.tab-rt-data {
+    width: 50%;
+    text-align: right;
+}
+.tab-rt-data button {
+    background: none;
+    border: 1px solid #1a73e8;
+    padding: 0.3em 1rem;
+	margin-bottom:10px;
+}
+.custom-btm-sec p {
+    width: 100%;
+    float: left;
+}
+.nav-tabs {
+    width: auto;
+    float: left;
+}
+.summary-datatop,.custom-btm-secpart {
+    box-shadow: 0 2px 4px 0 rgba(52,49,63,.25);
+    padding: 15px;
+}
+.custom-btm-secpart .row div {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+.tab-left-data h4,.custom-btm-secpart h4{
+	color:#000;
+}
+.nav-tabs li a {
+    border: none !important;
+}
+
+.nav-tabs li a.active {
+    border-bottom:  2px solid #1a73e8 !important;
+    background:none;
+}
+
+button.green-btn,button.red-btn,button.fade-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+button.green-btn a,button.red-btn a{color:#ffffff;}
+button.fade-btn a{color:#000;}
+button.green-btn{
+	background:green;
+}
+button.red-btn {
+    background: red;
+}
+button.fade-btn{
+	background: #eee;
+}
+.custom-btm-secpart h1 {
+    font-size: 42px;
+    opacity: 0.6;
+    margin: 20px 0 0 0;
+    font-weight: 300;
+}
+section.dashboard-tab h1 {
+    font-size: 32px;
+    opacity: 0.7;
+    font-weight: 300;
+}
+.table-tab {
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0 2px 4px 0 rgba(52,49,63,.25);
+    border: none;
+}
+.table-tab tr > th, .table-tab tr > td {
+    border: none;
+    white-space: nowrap;
+}
+.table-tab tbody td:nth-child(1) {
+    color: #4e73df;
+}
+section.dashboard-tab {
+    background: #f6f7fc;
+}
+.tab-full-section{border-bottom:1px solid #ccc;}
+@media screen and (max-width:767px){
+	.custom-btm-secpart h1 {
+		font-size: 32px;
+	}
+	.tab-rt-data {
+		width: 100%;
+		justify-content: flex-start !important;
+	}
+}
+/*----End Body-Section----*/
+.tab-rt-data{
+    color:#fff;
+    float: left;
+    position: relative;
+}
+.tab-rt-data::before{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background: #ffff00;    
+    padding:15px 0;
+}
