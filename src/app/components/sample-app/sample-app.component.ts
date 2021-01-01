@@ -85,8 +85,7 @@ export class SampleAppComponent implements OnInit, OnChanges, AfterViewInit {
   getOrder() {
     this.commonService.getOrder()
       .subscribe(response => {
-        this.orderData = response.data;
-        console.log(this.orderData);
+        this.orderData = response.data || [];
       }, err => {
         console.log(err);
       });
