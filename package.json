@@ -25,6 +25,7 @@
     "@angular/platform-browser-dynamic": "~10.2.0",
     "@angular/router": "~10.2.0",
     "@bigcommerce/big-design": "^0.25.0",
+    "@types/react-datepicker": "^3.1.2",
     "bootstrap": "^4.5.3",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
